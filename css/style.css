@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 2em;
+
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+
+    width: 13em;
+    height: 100vh;
+
+    
+
+    border-right: 1px solid rgba(0, 0, 0, 0.123);
+}
+
+header .logo {
+    width: 8em;
+}
+
+
+.icones {
+   display: flex;
+    flex-direction: column;
+    margin-top: 1.3em;
+}
+
+
+.icones li{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+    
+.icone-home {
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.icone-pesquisa {
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.icone-explorar {
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.icone-reels {
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.icone-mensagens {
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.icone-notificacoes {
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.icone-criar {
+    width: 1.5em;
+    margin-right: 10px;
+}
+
+.icone-perfil {
+    width: 2em;
+    margin-right: 10px;
+}
+
+/* main */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.story {
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    padding: 15px 0px;
+    margin-left: 28vw;
+}
+
+
+.story ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-story {
+    width: 6em;
+}
+
+
+.publi {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    width: 36em;
+
+    margin-top: 1.2em;
+    margin-left: 28vw;
+}
+
+.perfil-publi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.perfil-publi li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft-publi {
+    width: 4.5em;
+}
+
+.interacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interacao li {
+    margin: 1em;
+}
+
+.icon {
+    width: 1.5em;
+}
+
+.last-publi {
+    
+}
