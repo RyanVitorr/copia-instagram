@@ -138,6 +138,10 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+
+    padding: 5px 0;
 }
 
 .perfil-publi li {
@@ -150,10 +154,24 @@ main {
     width: 4.5em;
 }
 
+
+.mid-publi {
+    width: auto;
+    height: auto;
+}
+
+.img-publi {
+    width: 100%;
+    height: 100%;
+}
+
+
 .interacao {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
+
+    border-top: 1px solid rgba(0, 0, 0, 0.123);
 }
 
 .interacao li {
@@ -164,6 +182,42 @@ main {
     width: 1.5em;
 }
 
+
 .last-publi {
+    margin: 1.1em;
+}
+
+.text-mid {
+    margin: 1.1em 1.1em 1.1em 0;
     
+}
+
+.text-comentarios  a{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.meu-perfil ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ft-perfil3 {
+    width: 4em;
+}
+
+/* footer */
+
+footer {
+    width: 30vw;
+}
+
+.mais {
+    display: flex;
+    align-items: start;
+}
+
+
+.sugestoes {
+   
 }
