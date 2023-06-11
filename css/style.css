@@ -12,6 +12,8 @@ body {
     flex-direction: row;
     margin: 2em;
 
+    overflow: hidden;
+
 }
 
 /* header */
@@ -34,7 +36,7 @@ header .logo {
 
 
 .icones {
-   display: flex;
+    display: flex;
     flex-direction: column;
     margin-top: 1.3em;
 }
@@ -151,9 +153,14 @@ main {
 }
 
 .ft-publi {
-    width: 4.5em;
+    width: 3.5em;
 }
 
+.pontos-publi {
+   padding-bottom: 20px;
+   font-size: 2em;
+   margin-right: .60em;
+}
 
 .mid-publi {
     width: auto;
@@ -209,15 +216,85 @@ main {
 /* footer */
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+
+    margin-left: 2em;
+    margin-top: .7em;
+
+}
+
+.meu-perfil {
+    display: flex;
+
     width: 30vw;
 }
 
-.mais {
-    display: flex;
-    align-items: start;
+.meu-perfil ul {
+    width: 30vw;
+    justify-content: left;
+}
+
+.name-perfil li{
+    margin-left: 15px;
+
+    font-size: 0.90em;
+}
+
+.mudar{
+    margin-left: 10em;
+    color: rgb(0, 150, 250);
+}
+
+.img-perfl2 {
+    width: 3.5em;
 }
 
 
 .sugestoes {
-   
+    width: 30vw;
+}
+
+.ver-mais {
+    display: flex;
+    
+    margin-bottom: 2em;
+}
+
+.colorsuges {
+    color: rgba(102, 102, 102, 0.829);
+}
+
+.ver-tudo {
+    margin-left: 8em;
+}
+
+.perfis {
+
+    margin-bottom: 15px;
+}
+
+.perfis ul {
+    display: flex;
+    align-items: center;
+}
+
+.perfis li {
+    display: flex;
+    align-items: center;
+}
+
+.perfis li p {
+    margin-left: .80em;
+}
+
+.img-perfis {
+    width: 2em;
+}
+
+.seguir {
+    margin-left: 10em;
+    color: rgb(0, 150, 250);
 }
