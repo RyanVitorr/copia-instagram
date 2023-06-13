@@ -48,11 +48,14 @@ header {
 
 }
 
+.logo {
 
-header .logo {
-    width: 25em;
+    width: 8em;
 }
 
+.logo2 {
+    display: none;
+}
 
 .icones {
     display: flex;
@@ -401,16 +404,60 @@ footer {
 
 
 
-@media only screen and (max-width: 950px) {
-    
+@media only screen and (max-width: 1250px) {
     .div-header {
-        border-right: 1px  solid rgba(0, 0, 0, 0.123);
-    
-        width: 1em;
-        height: 100vh;
-    
+        
+        width: 10em;
     }
 
 
 }
 
+@media only screen and (max-width: 1190px) {
+    .div-header {
+        
+        width: 3em;
+    }
+
+    .logo {
+        display: none;
+        
+    }
+
+    .text-icone {
+        display: none;
+    }
+
+    .logo2 {
+        display: flex;
+        
+        margin-bottom: 50px;
+
+        width: 1.7em;
+        
+    }
+
+}
+
+@media only screen and (max-width: 1080px) {
+    
+    header {
+        width: 2vw;
+    }
+
+    main {
+        align-items: center;
+       justify-content: center;
+        width: 100vw;
+
+    }
+
+    .div-main {
+        
+           
+    }
+
+    footer {
+        display: none;
+    }
+}
