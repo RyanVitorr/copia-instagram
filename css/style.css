@@ -31,9 +31,8 @@ header {
     display: flex;
     flex-direction: column;
 
-
-    width: 100vw;
-    height: 100vh;  
+    width: 100vh;
+    height: 100vw;  
 
     padding-left: 1.5em;
     margin-top: 1.2em;
@@ -42,10 +41,10 @@ header {
 
 .div-header {
     border-right: 1px  solid rgba(0, 0, 0, 0.123);
+    position: fixed;
 
     width: 20em;
     height: 100vh;
-
 }
 
 .logo {
@@ -121,6 +120,17 @@ header {
 .paginainicial {
     color: black;
     font-size: 1.1em;
+}
+
+
+.icone-mais {
+    width: 2.7em;
+    
+}
+
+.mais-posi {
+    margin-top: 19em;
+    margin-left: 2px;
 }
 
 /* main */
@@ -306,8 +316,8 @@ main {
     color: rgb(0, 150, 250);
 } 
 
-/* footer */
-
+/*perfl-seguir*/
+/*
 footer {
    display: flex;
    align-items: flex-start;
@@ -318,6 +328,12 @@ footer {
    margin-top: 1.1em;
 
    margin-left: 2em;
+}
+*/
+
+.perfil-seguir {
+    margin-top: 1.1em;
+    margin-left: 2em;
 }
 
 .meu-perfil {
@@ -409,11 +425,11 @@ footer {
         
         width: 10em;
     }
-
-
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1110px) {
+
+    
     .div-header {
         
         width: 3em;
@@ -434,30 +450,111 @@ footer {
         margin-bottom: 50px;
 
         width: 1.7em;
-        
     }
 
-}
-
-@media only screen and (max-width: 1080px) {
+    .mais-img {
+        display: none;
+    }
     
-    header {
-        width: 2vw;
+    .mais-posi {
+        margin-top: 17em;
+        margin-left: 2px;
     }
 
     main {
-        align-items: center;
-       justify-content: center;
+        justify-content: left;
         width: 100vw;
-
+        margin-right: 5em;
     }
+   
+}
 
-    .div-main {
+
+@media only screen and (max-width: 975px) {
+    
+    .div-header {
         
-           
+        width: 3em;
     }
 
-    footer {
+    .logo {
+        display: none;
+        
+    }
+
+    .text-icone {
+        display: none;
+    }
+
+    .logo2 {
+        display: flex;
+        
+        margin-bottom: 50px;
+
+        width: 1.7em;
+    }
+
+    .mais-img {
+        display: none;
+    }
+    
+    main {
+       margin-left: 5em;
+    }
+
+    .perfil-seguir {
+        margin-left: 3em;
+   
+    }
+
+    .sugestoes {
+        width: 100vw;
+    }
+}
+/*
+@media only screen and (max-width: 905px) {
+
+    header {
+        width: 20vw;
+    }
+
+
+    main {
+
+     justify-content: center;
+
+      margin-left: 0px;
+
+      width: 100vw;
+    }
+
+    .perfil-seguir {
+        display: none;
+    }
+}
+*/
+
+@media only screen and (max-width: 905px) {
+
+    header {
+        width: 20vw;
+    }
+
+
+    .icones {
+        display: flex;
+    }
+
+    main {
+
+     justify-content: center;
+
+      margin-left: 0px;
+
+      width: 100vw;
+    }
+
+    .perfil-seguir {
         display: none;
     }
 }
